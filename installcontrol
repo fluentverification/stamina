@@ -1,0 +1,27 @@
+#!/bin/sh
+
+set -e
+
+# Installs stamina, sstamina, and pstamina
+install() {
+	./stamina-storm/install.sh
+	sudo cp ./stamina-storm/build/sstamina /usr/bin
+	sudo cp ./stamina-storm/build/libstamina.so* /usr/lib
+	./stamina-prism/stamina/install.sh
+	sudo cp ./stamina-prism/stamina/bin/pstamina /usr/bin
+	sudo cp stamina /usr/bin/
+}
+
+# Uninstalls everything
+uninstall() {
+	rm /usr/bin/stamina
+	rm /usr/bin/sstamina
+	rm /usr/bin/pstamina
+	rm /usr/lib/libstamina.so*
+}
+
+if [ $1 == "install" ]; then
+	install
+elif [ $1 == "uninstall" ]; then
+	uninstall
+fi
