@@ -7,17 +7,17 @@ if __name__=='__main__':
 	if len(sys.argv) == 1:
 		print("Missing arguments")
 		print("Usage:")
-		print(f"stamina MODEL_FILE PROPERTIES_FILE --sstamina(-s)/--pstamina(-p) [OPTIONS]")
+		print(f"stamina MODEL_FILE PROPERTIES_FILE --storm(-s)/--prism(-p) [OPTIONS]")
 		print(f"\nTo see help or usage for STAMINA/STORM or STAMINA/PRISM, please pass in either the -s or -p tags respectively\n")
 		sys.exit(1)
-	if "-s" in sys.argv or "--sstamina" in sys.argv:
-		sys.argv.remove(a for a in ["-s", "--sstamina"])
+	if "-s" in sys.argv or "--storm" in sys.argv:
+		sys.argv.remove(a for a in ["-s", "--storm"])
 		args = ""
 		for arg in sys.argv:
 			args += str(arg) + " "
 		sys.exit(os.system(f"sstamina {args}"))
-	if "-p" in sys.argv or "--pstamina" in sys.argv:
-		sys.argv.remove(a for a in ["-p", "--pstamina"])
+	if "-p" in sys.argv or "--prism" in sys.argv:
+		sys.argv.remove(a for a in ["-p", "--prism"])
 		args = ""
 		for arg in sys.argv:
 			args += str(arg) + " "
@@ -29,6 +29,6 @@ if __name__=='__main__':
 		print(f"\nTo see help or usage for STAMINA/STORM or STAMINA/PRISM, please pass in either the -s or -p tags respectively\n")
 		print("Options:")
 		print("\t--help (-h):         Shows this message and exits")
-		print("\t--sstamina (-s):     Use STAMINA/STORM with the arguments passed in")
-		print("\t--pstamina (-p):     Use STAMINA/PRISM with the arguments passed in")
+		print("\t--storm (-s):     Use STAMINA/STORM with the arguments passed in")
+		print("\t--prism (-p):     Use STAMINA/PRISM with the arguments passed in")
 
