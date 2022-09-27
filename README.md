@@ -1,4 +1,4 @@
-# STAMINA
+# STAMINA - STochastic Approximate Model-checker for INfinite-state Analysis
 
 [https://staminachecker.org](https://staminachecker.org)
 
@@ -14,6 +14,7 @@ STAMINA/STORM is located at [https://github.com/fluentverification/stamina-storm
 | Multithreading                  | In-progress             | November or December 2022 |
 | "Greedy" (priority) exploration | In-progress             | November or December 2022 |
 | State "prefetching" (threading) | TBD                     | TBD                       |
+| State ownership by value        | TBD                     | TBD                       |
 
 ## STAMINA/PRISM
 
@@ -25,7 +26,28 @@ This repository is a *wrapper* repository which contains links to STAMINA-STORM 
 
 *If you have built the contents of the two submodules*, you can use the `installcontrol` script to install and/or uninstall both STAMINA/STORM and STAMINA/PRISM.
 
-```
+```bash
 installcontrol install # Installs both STAMINA/STORM and STAMINA/PRISM
 installcontrol uninstall # Uninstalls both STAMINA/STORM and STAMINA/PRISM
+```
+
+### To Build STAMINA/PRISM
+
+Assuming you have installed PRISM, simply `cd` into the `stamina` folder and run `make` with the `PRISM_HOME` variable set
+
+```bash
+export PRISM_HOME=<path/to/prism>
+cd stamina-prism/stamina
+make PRISM_HOME=$PRISM_HOME -j$(nproc --ignore=1) # Uses all processors but one to make. Omit this flag if you only want single-threaded building
+```
+
+### To build STAMINA/STORM
+
+This version of STAMINA requires STORM to already be installed. Once that is done, simply use `cmake` and `make` respectively. If STORM is installed in a shared library path, the `STORM_PATH` variable is optional
+
+```bash
+cd stamina-storm
+mkdir build && cd build
+cmake .. -DCMAKE_CXX_COMPILER=$(which clang++) -DSTORM_PATH=$STORM_PATH # Omit if STORM is installed globally
+make -j$(nproc --ignore=1)
 ```
