@@ -51,3 +51,16 @@ mkdir build && cd build
 cmake .. -DCMAKE_CXX_COMPILER=$(which clang++) -DSTORM_PATH=$STORM_PATH # Omit if STORM is installed globally
 make -j$(nproc --ignore=1)
 ```
+
+## The `stamina` executable
+
+The `stamina` executable is a small Python 3.7+ script included in this repository, which passes options into the `pstamina` and `sstamina` executables respectively. It uses the `--storm` and `--prism` flags to do this.
+
+```bash
+# This invocation of the script uses the sstamina executable and therefore the options for sstamina
+stamina --storm $MODEL_FILE $PROPERTIES_FILE [OPTIONS...]
+# Whereas this invocation uses the pstamina executable and the options for pstamina
+stamina --prism $MODEL_FILE $PROPERTIES_FILE [OPTIONS...]
+```
+
+Please refer to the [wiki](https://staminachecker.org/wiki) for documentation on options.
