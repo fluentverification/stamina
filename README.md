@@ -2,6 +2,8 @@
 
 [https://staminachecker.org](https://staminachecker.org)
 
+![License](https://img.shields.io/github/license/fluentverification/stamina-storm)
+
 STAMINA, the STochastic Approximate Model-checker for INfinite-state Analysis, is a tool for analyizing large and infinite state spaces to provide probability values within a user-specified boundary. STAMINA is actually two programs: one integrated with the PRISM model checker and one integrated with the STORM model checker. The latter, STAMINA/STORM is under most active development and written in C++. The former, STAMINA/PRISM is written in Java and supports only the first two iterations of the STAMINA algorithm.
 
 ## STAMINA/STORM
