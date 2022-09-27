@@ -1,8 +1,8 @@
 [submodule "stamina-prism"]
 	path = stamina-prism
-	url = git@github.com:fluentverification/stamina-prism.git
-	branch = master
+	url = ../../fluentverification/stamina-prism.git
+	branch = main
 [submodule "stamina-storm"]
 	path = stamina-storm
-	url = git@github.com:fluentverification/stamina-storm.git
-	branch = master
+	url = ../../fluentverification/stamina-storm.git
+	branch = main
