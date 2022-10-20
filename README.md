@@ -64,3 +64,7 @@ stamina --prism $MODEL_FILE $PROPERTIES_FILE [OPTIONS...]
 ```
 
 Please refer to the [wiki](https://staminachecker.org/wiki) for documentation on options.
+
+# A Note on Versioning
+
+STAMINA will soon be re-doing its versioning. 2.0 will become 0.2.0, 1.0 will become 0.1.0, etc., to keep with more modern versioning standards and not jump version numbers too quickly.
