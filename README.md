@@ -8,13 +8,13 @@ STAMINA, the STochastic Approximate Model-checker for INfinite-state Analysis, i
 
 STAMINA/STORM is located at [https://github.com/fluentverification/stamina-storm](https://github.com/fluentverification/stamina-storm) and included in this repository as a submodule. It supports STAMINA 2.0+ algorithms and supports CTMCs and DTMCs. It supports PRISM model files and CSL properties files, and will soon support JANI files. Features slated for inclusion in STAMINA/STORM are as follows:
 
-| Feature                         | Status                  | Approx. Date              |
-|---------------------------------|-------------------------|---------------------------|
-| Dynamic Programming             | Finished                | N/A                       |
-| Multithreading                  | In-progress             | November or December 2022 |
-| "Greedy" (priority) exploration | In-progress             | November or December 2022 |
-| State "prefetching" (threading) | TBD                     | TBD                       |
-| State ownership by value        | TBD                     | TBD                       |
+| Feature                         | Status                  | Approx. Date  (pre-release) |
+|---------------------------------|-------------------------|-----------------------------|
+| Dynamic Programming             | Finished                | N/A                         |
+| Multithreading                  | In-progress             | November or December 2022   |
+| "Greedy" (priority) exploration | In-progress             | November or December 2022   |
+| State "prefetching" (threading) | TBD                     | TBD                         |
+| State ownership by value        | TBD                     | TBD                         |
 
 ## STAMINA/PRISM
 
