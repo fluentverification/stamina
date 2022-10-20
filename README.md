@@ -10,11 +10,13 @@ STAMINA/STORM is located at [https://github.com/fluentverification/stamina-storm
 
 | Feature                         | Status                  | Approx. Date  (pre-release) |
 |---------------------------------|-------------------------|-----------------------------|
-| Dynamic Programming             | Finished                | N/A                         |
+| Dynamic Programming             | Pre-released            | N/A                         |
 | Multithreading                  | In-progress             | November or December 2022   |
 | "Greedy" (priority) exploration | In-progress             | November or December 2022   |
 | State "prefetching" (threading) | TBD                     | TBD                         |
 | State ownership by value        | TBD                     | TBD                         |
+
+Please note these dates are "pre-releases". While they are probably production ready, we intend to extensively test them before "final" releases for each feature, which could take some months.
 
 ## STAMINA/PRISM
 
