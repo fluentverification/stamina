@@ -16,7 +16,7 @@ STAMINA/STORM is located at [https://github.com/fluentverification/stamina-storm
 | State "prefetching" (threading) | TBD                     | TBD                         |
 | State ownership by value        | TBD                     | TBD                         |
 
-Please note these dates are "pre-releases". While they are probably production ready, we intend to extensively test them before "final" releases for each feature, which could take some months.
+Please note these dates are "pre-releases". While they will probably be production ready by that date, we intend to extensively test them before "final" releases for each feature, which could take some months.
 
 ## STAMINA/PRISM
 
