@@ -5,4 +5,4 @@
 [submodule "stamina-storm"]
 	path = stamina-storm
 	url = https://github.com/fluentverification/stamina-storm
-	branch = master
+	branch = main
