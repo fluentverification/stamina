@@ -1,0 +1,12 @@
+$CASE_STUDY_PREFIX/case-studies/toy/toy1_combined.prism $CASE_STUDY_PREFIX/case-studies/toy/toy.csl
+$CASE_STUDY_PREFIX/case-studies/toy/toy1_separate.prism $CASE_STUDY_PREFIX/case-studies/toy/toy.csl
+$CASE_STUDY_PREFIX/case-studies/toy/toy2_combined2.prism $CASE_STUDY_PREFIX/case-studies/toy/toy.csl
+$CASE_STUDY_PREFIX/case-studies/toy/toy2_combined3.prism $CASE_STUDY_PREFIX/case-studies/toy/toy.csl
+$CASE_STUDY_PREFIX/case-studies/toy/toy2_combined4.prism $CASE_STUDY_PREFIX/case-studies/toy/toy.csl
+$CASE_STUDY_PREFIX/case-studies/toy/toy2_combined.prism $CASE_STUDY_PREFIX/case-studies/toy/toy.csl
+$CASE_STUDY_PREFIX/case-studies/toy/toy2_separate.prism $CASE_STUDY_PREFIX/case-studies/toy/toy.csl
+$CASE_STUDY_PREFIX/case-studies/Jackson/jackson_lambda_5_N_4.prism $CASE_STUDY_PREFIX/case-studies/Jackson/jackson_lambda_5_N_4.csl
+$CASE_STUDY_PREFIX/case-studies/Jackson/jackson_lambda_5_N_5.prism $CASE_STUDY_PREFIX/case-studies/Jackson/jackson_lambda_5_N_5.csl
+$CASE_STUDY_PREFIX/case-studies/Tandem/tandem_c_2047_T_0.25.prism $CASE_STUDY_PREFIX/case-studies/Tandem/tandem_c_2047_T_0.25.csl
+$CASE_STUDY_PREFIX/case-studies/Tandem/tandem_c_4095_T_0.25.prism $CASE_STUDY_PREFIX/case-studies/Tandem/tandem_c_4095_T_0.25.csl
+

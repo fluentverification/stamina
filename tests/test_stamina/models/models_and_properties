@@ -1,0 +1,30 @@
+# Models and properties,  separated by commas
+# Lines which start with '#' are ignored as comments
+# model_file,  properties_file
+# ==========================================================================================================
+# These model files are benchmarks other than the Genetic Hazard Circuit
+# ==========================================================================================================
+$CASE_STUDY_PREFIX/case-studies/Tandem/tandem_c_2047_T_0.25.prism, $CASE_STUDY_PREFIX/case-studies/Tandem/tandem_c_2047_T_0.25.csl
+$CASE_STUDY_PREFIX/case-studies/Tandem/tandem_c_4095_T_0.25.prism, $CASE_STUDY_PREFIX/case-studies/Tandem/tandem_c_4095_T_0.25.csl
+$CASE_STUDY_PREFIX/case-studies/Polling/polling_T_10_N_12.prism, $CASE_STUDY_PREFIX/case-studies/Polling/polling_T_10_N_12.csl
+$CASE_STUDY_PREFIX/case-studies/Polling/polling_T_10_N_16.prism, $CASE_STUDY_PREFIX/case-studies/Polling/polling_T_10_N_16.csl
+$CASE_STUDY_PREFIX/case-studies/Polling/polling_T_10_N_20.prism, $CASE_STUDY_PREFIX/case-studies/Polling/polling_T_10_N_20.csl
+$CASE_STUDY_PREFIX/case-studies/Jackson/jackson_lambda_5_N_4.prism, $CASE_STUDY_PREFIX/case-studies/Jackson/jackson_lambda_5_N_4.csl
+$CASE_STUDY_PREFIX/case-studies/Jackson/jackson_lambda_5_N_5.prism, $CASE_STUDY_PREFIX/case-studies/Jackson/jackson_lambda_5_N_5.csl
+$CASE_STUDY_PREFIX/case-studies/Toggle/toggle_IPTG_0.prism, $CASE_STUDY_PREFIX/case-studies/Toggle/toggle_IPTG_0.csl
+$CASE_STUDY_PREFIX/case-studies/Toggle/toggle_IPTG_100.prism, $CASE_STUDY_PREFIX/case-studies/Toggle/toggle_IPTG_100.csl
+# ==========================================================================================================
+# These model files are the Genetic Hazard Circuit models and properties
+# ==========================================================================================================
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/Circuit0x8E_flat_10_010to100_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/hazard_glitch_zero.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/Circuit0x8E_flat_10_010to111_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/hazard_glitch_zero.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/Circuit0x8E_flat_10_100to111_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/hazard_glitch_zero.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/Circuit0x8E_flat_10_111to010_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/hazard_glitch_zero.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/Circuit0x8E_flat_10_100to010_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/hazard_glitch_zero.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/Circuit0x8E_flat_10_111to100_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-Zero/hazard_glitch_zero.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/Circuit0x8E_flat_10_000to011_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/hazard_glitch_one.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/Circuit0x8E_flat_10_011to101_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/hazard_glitch_one.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/Circuit0x8E_flat_10_000to101_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/hazard_glitch_one.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/Circuit0x8E_flat_10_101to000_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/hazard_glitch_one.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/Circuit0x8E_flat_10_011to000_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/hazard_glitch_one.csl
+$CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/Circuit0x8E_flat_10_101to011_unbounded.sm, $CASE_STUDY_PREFIX/case-studies/HazardCct/Circuit0x8E_original/Reaction_based_abstraction/Glitch-One/hazard_glitch_one.csl
