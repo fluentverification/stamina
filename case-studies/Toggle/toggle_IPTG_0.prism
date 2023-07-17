@@ -14,7 +14,7 @@ module TetR_def
 	[] TetR=0 -> p_t : (TetR'=TetR+10);
 	
 	[] TetR>0 -> p_t : (TetR'=TetR+10) + 0.0075*TetR:(TetR'=TetR-1);
-	
+
 endmodule
 
 module LacI_def
@@ -24,5 +24,5 @@ module LacI_def
 	[] LacI=0 -> p_l : (LacI'=LacI+10);
 
 	[] LacI>0 -> p_l : (LacI'=LacI+10) + 0.0075*LacI:(LacI'=LacI-1);
-	
+
 endmodule
